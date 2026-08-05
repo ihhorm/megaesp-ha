@@ -1,0 +1,6 @@
+{
+  "name": "MegaESP",
+  "render_readme": true,
+  "domains": ["megaesp"],
+  "homeassistant": "2025.1.0"
+}

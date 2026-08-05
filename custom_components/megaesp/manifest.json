@@ -1,0 +1,11 @@
+{
+  "domain": "megaesp",
+  "name": "MegaESP",
+  "codeowners": ["@ihhorm"],
+  "config_flow": true,
+  "documentation": "https://github.com/ihhorm/megaesp-ha",
+  "issue_tracker": "https://github.com/ihhorm/megaesp-ha/issues",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "2026.8.5"
+}
