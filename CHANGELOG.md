@@ -1,14 +1,15 @@
-# Changelog
+# Зміни
 
 ## 2026-08-05
 
-### Firmware 11.4
-- Added `Permit Input` as a regulator condition/block input for DS18B20, I2C climate, Pressure, and Differential regulators.
-- Added `Invert output` support for all regulator types.
-- Added regulator UI controls for `Permit Input` and `Invert` on the controller web pages.
+### Home Assistant `2026.8.5`
 
-### Home Assistant
-- Added `Permit Input` as HA select entities for DS, Pressure, and Differential regulators.
-- Added `Invert` as HA switch entities for DS, Pressure, and Differential regulators.
-- Fixed duplicated regulator cards on the MegaESP dashboard.
-- Renamed dashboard section `Device Status` to `Analog Input`.
+- Додано окрему HACS-готову інтеграцію `MegaESP` для Home Assistant.
+- Додано сутності `Permit Input` для регуляторів `DS18B20`, `Pressure`, `Differential`.
+- Додано сутності `Invert output` для всіх основних типів регуляторів.
+- Додано `climate` сутності для терморегуляторів `DS18B20`.
+- Додано авто-генерацію панелі `MegaESP` у Home Assistant.
+- Додано окремі переходи `HA` і `Web` у панелі контролера.
+- Прибрано дублювання `Pressure` і `Differential` у панелі.
+- Перейменовано секцію `Device Status` у `Analog Input`.
+- Підготовлено репозиторій до встановлення через HACS.
