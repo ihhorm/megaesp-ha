@@ -45,6 +45,10 @@
 3. Додай картку `Thermostat`.
 4. Вибери потрібну сутність `climate.megaesp...`.
 
+## Брендинг Home Assistant
+
+Інтеграція містить локальні brand assets всередині `custom_components/megaesp/brand`, тому іконка та логотип доступні без зовнішніх залежностей.
+
 ## Підтримка
 
 - Issues: https://github.com/ihhorm/megaesp-ha/issues
