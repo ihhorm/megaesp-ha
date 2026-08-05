@@ -1,53 +1,53 @@
-# MegaESP for Home Assistant
+# MegaESP для Home Assistant
 
-Home Assistant custom integration for MegaESP / ESP8266 MegaD controllers.
+Кастомна інтеграція Home Assistant для контролерів MegaESP / ESP8266 MegaD.
 
-## Features
+## Можливості
 
-- Local polling over the MegaESP HTTP API
-- Outputs, PWM, input counters, analog input
-- DS18B20 sensors
-- I2C sensors
-- Pressure regulator
-- Differential regulator
-- DS18B20 thermostat entities exposed as `climate.*`
-- Auto-generated MegaESP dashboard inside Home Assistant
+- локальне опитування через HTTP API MegaESP
+- керування `Output`, `PWM`, лічильниками `Input`, `Analog Input`
+- сенсори `DS18B20`
+- I2C сенсори
+- регулятор тиску
+- диференційний регулятор
+- терморегулятори `DS18B20` як стандартні сутності `climate.*`
+- автоматично згенерована панель `MegaESP` у Home Assistant
 
-## Installation via HACS
+## Встановлення через HACS
 
-1. Open HACS in Home Assistant.
-2. Open the top-right menu.
-3. Select `Custom repositories`.
-4. Add `https://github.com/ihhorm/megaesp-ha`.
-5. Select category `Integration`.
-6. Install `MegaESP`.
-7. Restart Home Assistant.
-8. Go to `Settings -> Devices & services`.
-9. Add integration `MegaESP`.
+1. Відкрий `HACS` у Home Assistant.
+2. Відкрий меню у правому верхньому куті.
+3. Обери `Custom repositories`.
+4. Додай `https://github.com/ihhorm/megaesp-ha`.
+5. Вибери категорію `Integration`.
+6. Встанови `MegaESP`.
+7. Перезапусти Home Assistant.
+8. Перейди в `Settings -> Devices & services`.
+9. Додай інтеграцію `MegaESP`.
 
-## Configuration
+## Налаштування
 
-You will need:
+Потрібні параметри:
 
-- controller IP address or hostname
-- controller HTTP port, usually `80`
-- controller password used by the MegaESP firmware
-- polling interval in seconds
+- IP-адреса або hostname контролера
+- HTTP порт контролера, зазвичай `80`
+- пароль контролера з прошивки MegaESP
+- інтервал опитування в секундах
 
-## Thermostat card
+## Картка Thermostat
 
-DS18B20 regulators are exposed as standard Home Assistant `climate` entities.
+Терморегулятори `DS18B20` експортуються як стандартні сутності Home Assistant `climate`.
 
-1. Open any dashboard.
-2. Select `Edit dashboard`.
-3. Add card `Thermostat`.
-4. Choose the needed `climate.megaesp...` entity.
+1. Відкрий потрібний dashboard.
+2. Обери `Edit dashboard`.
+3. Додай картку `Thermostat`.
+4. Вибери потрібну сутність `climate.megaesp...`.
 
-## Support
+## Підтримка
 
 - Issues: https://github.com/ihhorm/megaesp-ha/issues
-- Firmware: https://github.com/ihhorm/megaesp-firmware
+- Прошивка: https://github.com/ihhorm/megaesp-firmware
 
-## Version
+## Версія
 
-Current HACS release target: `2026.8.5`
+Поточний HACS release: `2026.8.5`
