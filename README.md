@@ -1,5 +1,7 @@
 # MegaESP для Home Assistant
 
+[![Validate](https://github.com/ihhorm/megaesp-ha/actions/workflows/validate.yaml/badge.svg)](https://github.com/ihhorm/megaesp-ha/actions/workflows/validate.yaml) [![Hassfest](https://github.com/ihhorm/megaesp-ha/actions/workflows/hassfest.yaml/badge.svg)](https://github.com/ihhorm/megaesp-ha/actions/workflows/hassfest.yaml) [![Release](https://img.shields.io/github/v/release/ihhorm/megaesp-ha)](https://github.com/ihhorm/megaesp-ha/releases)
+
 Кастомна інтеграція Home Assistant для контролерів MegaESP / ESP8266 MegaD.
 
 ## Можливості
