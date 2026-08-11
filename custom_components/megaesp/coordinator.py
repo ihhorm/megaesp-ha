@@ -72,14 +72,6 @@ def parse_key_value_list(payload: str | None) -> dict[str, str] | None:
     return data
 
 
-def default_port_label(idx: int) -> str:
-    if idx == 10:
-        return "TX"
-    if idx == 11:
-        return "RX"
-    return f"P{idx}"
-
-
 class MegaEspCoordinator(DataUpdateCoordinator[dict]):
     def __init__(self, hass, entry):
         self.entry = entry
@@ -273,7 +265,7 @@ class MegaEspCoordinator(DataUpdateCoordinator[dict]):
                 {
                     "idx": idx,
                     "key": f"p{idx}",
-                    "label": entry.get("name") or entry.get("gpio_label") or default_port_label(idx),
+                    "label": entry.get("name") or f"P{idx}",
                     "mode": mode,
                     "hidden": int(entry.get("hidden", 0)) == 1,
                     "regulator": int(entry.get("regulator", 0)) == 1,
