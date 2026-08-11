@@ -14,6 +14,7 @@
 - диференційний регулятор
 - терморегулятори `DS18B20` як стандартні сутності `climate.*`
 - автоматично згенерована панель `MegaESP` у Home Assistant
+- сумісність із прошивкою `MegaESP Firmware 11.6` (`Wi-Fi Indicator Output`, heartbeat Wi-Fi LED)
 
 ## Встановлення через HACS
 

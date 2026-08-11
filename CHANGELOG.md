@@ -1,5 +1,12 @@
 # Зміни
 
+## 2026-08-11
+
+### Home Assistant docs
+
+- Оновлено документацію сумісності з прошивкою `MegaESP Firmware 11.6`.
+- Додано згадку про `Wi-Fi Indicator Output` і heartbeat-індикацію Wi-Fi LED.
+
 ## 2026-08-05
 
 ### Home Assistant `2026.8.5`
